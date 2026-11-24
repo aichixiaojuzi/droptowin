@@ -4,16 +4,13 @@
 
 [中文](README.md) · [Config example](_tools/config.example.json) · v1.0.0
 
-<p align="center">
-  <img src="docs/2-phone.jpg" width="46%" alt="Phone web page: PC clipboard and the text box">
-  <img src="docs/5-clipboard-files.jpg" width="46%" alt="Files copied on the PC, downloadable on the phone">
-</p>
-<p align="center"><sub>Left: open and go　·　Right: files copied on the PC, downloadable on the phone</sub></p>
+| Phone web page: open and go | Files copied on the PC, downloadable on the phone |
+|---|---|
+| ![Phone web page: clipboard and text box](docs/2-phone.jpg) | ![Files copied on the PC, offered as downloads](docs/5-clipboard-files.jpg) |
 
-<p align="center">
-  <img src="docs/4-pc-inbox.jpg" width="72%" alt="PC inbox with the arrival window">
-</p>
-<p align="center"><sub>Arriving on the PC: into the inbox, Explorer pops up on it</sub></p>
+![PC inbox: arriving files land here and Explorer pops up on them](docs/4-pc-inbox.jpg)
+
+*Arriving on the PC: into the inbox, Explorer pops up on it*
 
 
 ---
@@ -61,10 +58,9 @@ pip install pillow pillow-heif
 
 The installer creates the data folders, writes `config.json`, opens firewall port 8899, sets up auto-start, starts the service, and opens a setup page showing the address to use on your phone.
 
-<p align="center">
-  <img src="docs/1-setup.jpg" width="330" alt="Setup page after install: the address to open, and one step per method">
-</p>
-<p align="center"><sub>This page opens by itself after install — just follow it</sub></p>
+| | |
+|---|---|
+| ![Setup page: the address to open](docs/1-setup.jpg) | This page opens by itself after install: the address to use on your phone on top, one step per method below. Just follow it. |
 
 Preview what it would do without changing anything:
 
@@ -114,10 +110,9 @@ How "Sync clipboard" decides:
 
 So when you want to pull from the PC, do not copy anything on the phone first. Overwritten content is archived into that day's md file in `文本\`.
 
-<p align="center">
-  <img src="docs/3-share-sheet.jpg" width="300" alt="Send to PC inside the iPhone share sheet">
-</p>
-<p align="center"><sub>Pick photos in the library → Share → Send to PC; WeChat files take the same path</sub></p>
+| | |
+|---|---|
+| ![Send to PC inside the iPhone share sheet](docs/3-share-sheet.jpg) | Pick photos in the library → Share → **Send to PC**; WeChat files take the same path. It shows up in the share sheet once installed. |
 
 Setup (the `/setup` page walks you through it):
 

@@ -20,9 +20,9 @@
 *.ico  binary
 
 # 打 tag 后 GitHub 生成的 Source code.zip 会读这里，把开发用文件排除掉。
-# 注意：只影响「之后新打的 tag」，已经发布的 v1.0.0 包改不了。
+# docs/ 里的截图要留着——README 引用了它们；只排除给维护者看的那份说明。
 /.gitattributes     export-ignore
 /.gitignore         export-ignore
-/docs/              export-ignore
+/docs/README.md     export-ignore
 /_tools/FILES.md    export-ignore
 

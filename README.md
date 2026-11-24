@@ -4,16 +4,13 @@
 
 [English](README.en.md) · [配置示例](_tools/config.example.json) · v1.0.0
 
-<p align="center">
-  <img src="docs/2-phone.jpg" width="46%" alt="手机网页：电脑剪贴板 + 发送输入框">
-  <img src="docs/5-clipboard-files.jpg" width="46%" alt="电脑上复制的文件，手机上直接下载">
-</p>
-<p align="center"><sub>左：手机打开就能收发　·　右：电脑上复制的文件，手机上直接下载</sub></p>
+| 手机网页：打开就能收发 | 电脑上复制的文件，手机上直接下载 |
+|---|---|
+| ![手机网页首屏：电脑剪贴板与发送框](docs/2-phone.jpg) | ![电脑复制的文件，手机页面直接给下载按钮](docs/5-clipboard-files.jpg) |
 
-<p align="center">
-  <img src="docs/4-pc-inbox.jpg" width="72%" alt="电脑收件箱，收到文件后自动弹窗选中">
-</p>
-<p align="center"><sub>传到电脑：落进收件箱，自动弹窗定位</sub></p>
+![电脑收件箱：传到电脑的文件落在这里，并自动弹窗选中](docs/4-pc-inbox.jpg)
+
+*传到电脑：落进收件箱，自动弹窗定位*
 
 ---
 
@@ -60,10 +57,9 @@ pip install pillow pillow-heif
 
 安装脚本会自动完成：创建 `收件箱 / 文本 / 发给我` 三个目录、写 `config.json`、放行防火墙 TCP 8899、配置开机自启、启动服务，最后打开一个配置页并显示手机该访问的地址。
 
-<p align="center">
-  <img src="docs/1-setup.jpg" width="330" alt="安装完成的配置页：显示手机该访问的地址，两种用法各给一步说明">
-</p>
-<p align="center"><sub>装完自动打开这个页面，照着做就行，不用记命令</sub></p>
+| | |
+|---|---|
+| ![配置页：显示手机该访问的地址](docs/1-setup.jpg) | 装完自动打开这个页面：上面是手机该访问的地址，下面两种用法各一段说明。照着做就行，不用记命令。 |
 
 想先看看它要做什么、但不实际改动：
 
@@ -113,10 +109,9 @@ Safari 打开安装完成后显示的地址，例如 `http://192.168.1.10:8899`�
 
 所以想从电脑拉到手机时，手机上别先复制东西，直接运行即可。被覆盖的内容不会丢，会存进 `文本\` 当天的 md 文件。
 
-<p align="center">
-  <img src="docs/3-share-sheet.jpg" width="300" alt="iPhone 分享面板里出现「发到电脑」">
-</p>
-<p align="center"><sub>相册选好照片 → 分享 → 发到电脑；微信里长按文件也是同一条路</sub></p>
+| | |
+|---|---|
+| ![iPhone 分享面板里出现「发到电脑」](docs/3-share-sheet.jpg) | 相册选好照片 → 分享 → **发到电脑**；微信里长按文件走同一条路。装好之后分享面板里就会出现它。 |
 
 配置步骤（配置页里有图文说明，这里简述）：
 
