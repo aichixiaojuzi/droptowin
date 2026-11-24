@@ -1,0 +1,24 @@
+{
+  "base_dir": "D:\\iPhone",
+  "port": 8899,
+  "heic_to_jpg": true,
+  "open_folder": true,
+  "shortcuts": [
+    {
+      "name": "同步剪贴板",
+      "name_en": "Sync clipboard",
+      "url": "https://www.icloud.com/shortcuts/xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "url_en": "https://www.icloud.com/shortcuts/yyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+      "note": "双向同步剪贴板内容",
+      "note_en": "Two-way clipboard sync"
+    },
+    {
+      "name": "发到电脑",
+      "name_en": "Send to PC",
+      "url": "https://www.icloud.com/shortcuts/xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "url_en": "https://www.icloud.com/shortcuts/yyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+      "note": "分享文件、照片到电脑",
+      "note_en": "Share files and photos to the PC"
+    }
+  ]
+}

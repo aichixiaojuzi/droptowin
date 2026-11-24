@@ -1,0 +1,28 @@
+# 运行时产物 / runtime artifacts
+_tools/access.log
+_tools/watchdog.log
+_tools/droptowin.out
+_tools/sync_state.json
+
+# 本机配置（含个人路径和快捷指令链接）/ local config
+_tools/config.json
+
+# 数据目录（个人文件，千万别提交）/ personal data folders
+收件箱/
+文本/
+发给我/
+
+# 历史备份 / local snapshots
+_backup/
+
+# 个人笔记，不进仓库
+随手传.md
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store

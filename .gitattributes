@@ -1,0 +1,20 @@
+# 统一换行符：仓库里存 LF，checkout 时按平台/类型还原
+* text=auto
+
+# 这几个必须是 CRLF：.vbs 由 WSH 按 ANSI 解析，行长判断依赖 CRLF；
+# .bat/.ps1 在中文 Windows 上用 CRLF 更稳
+*.bat  text eol=crlf
+*.vbs  text eol=crlf
+*.ps1  text eol=crlf
+*.cmd  text eol=crlf
+
+# 源码和文档保持 LF
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+# 图片按二进制处理，别做任何换行/编码转换
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.ico  binary
